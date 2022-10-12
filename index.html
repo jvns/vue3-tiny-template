@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- "defer" means that the DOM gets loaded before the script is executed -->
+    <script src="script.js" defer></script>
+    <meta charset="utf-8" />
+    <!-- make the page responsive (though I don't always want this) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>vue 3 template</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>{{ message }}</h1>
+
+      {{ testMethod() }}
+    </div>
+  </body>
+</html>
