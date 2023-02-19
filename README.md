@@ -7,7 +7,7 @@ So this is a tiny template I made for myself so that I can avoid that next
 time. I don't use a build process, instead it uses the CDN version of Vue and a single HTML / JS file.
 
 I make no claims that this is the "best" way to do it, what the [official (and
-very good) Vue documenation](https://vuejs.org/guide/quick-start.html#using-vue-from-cdn)
+very good) Vue documentation](https://vuejs.org/guide/quick-start.html#using-vue-from-cdn)
 suggests is probably better. This is just what I do.
 
 ### demo
